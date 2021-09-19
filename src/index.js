@@ -8,18 +8,12 @@ import "firebase/analytics";
 
 import "firebase/auth";
 import "firebase/firestore";
+const keys = require('./env/keys.json');
+
 // https://colorhunt.co/palette/464660368b85b4b897f1e9e5
 // const firebase = require("firebase");
 // Required for side-effects
-const firebaseConfig = {
-  apiKey: "AIzaSyAn3dbtc6VJ7keVicMn1i5ez2s_Jt1qbbE",
-  authDomain: "friendlyeats-c47ae.firebaseapp.com",
-  projectId: "friendlyeats-c47ae",
-  storageBucket: "friendlyeats-c47ae.appspot.com",
-  messagingSenderId: "989542196587",
-  appId: "1:989542196587:web:63896b071fdfab8d66982e",
-  measurementId: "G-6LXZLGGTXT"
-};
+const firebaseConfig = keys;
 // firebase
 
 // Initialize Firebase
