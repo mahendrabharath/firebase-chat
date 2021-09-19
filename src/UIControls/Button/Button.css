@@ -1,0 +1,71 @@
+
+
+  .form_button {
+    /* width: 300px; */
+    /* font-family: "Bungee", cursive; */
+    font-size: 1.2rem;
+    position: relative;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    background: rgb(112, 136, 216);
+    border: 2px solid #333dcb;
+    padding: 15px;
+    border-radius: 45px;
+    color: white;
+    overflow: hidden;
+    box-shadow: 0 2px 4px darkgray;
+    transition: all 0.2s ease-in;
+    z-index: 1;
+    text-align: center;
+  }
+  .form_button .circle {
+    position: absolute;
+    border-radius: 50%;
+    pointer-events: none;
+    background-image: radial-gradient(circle closest-side, white, #adb6ea);
+    width: 1px;
+    height: 1px;
+    z-index: 3;
+    -webkit-animation-name: ripple;
+            animation-name: ripple;
+    -webkit-animation-duration: 0.75s;
+            animation-duration: 0.75s;
+    -webkit-animation-timing-function: ease-in;
+            animation-timing-function: ease-in;
+  }
+  .form_button:hover {
+    transform: scale(1.01);
+    box-shadow: 0 6px 4px darkgray;
+  }
+  
+  @-webkit-keyframes ripple {
+    0% {
+      transform: scale(0, 0);
+      opacity: 0;
+    }
+    75% {
+      transform: scale(450, 450);
+      opacity: 0.75;
+    }
+    100% {
+      transform: scale(700, 700);
+      opacity: 0;
+    }
+  }
+  
+  @keyframes ripple {
+    0% {
+      transform: scale(0, 0);
+      opacity: 0;
+    }
+    75% {
+      transform: scale(450, 450);
+      opacity: 0.75;
+    }
+    100% {
+      transform: scale(700, 700);
+      opacity: 0;
+    }
+  }

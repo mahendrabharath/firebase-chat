@@ -1,0 +1,7 @@
+.login--header__title {
+    color: #3f9583;
+    font-size: xxx-large;
+    font-weight: bolder;
+    -webkit-text-stroke-width: .05px;
+    -webkit-text-stroke-color: #05366B;
+}

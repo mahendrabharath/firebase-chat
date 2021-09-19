@@ -1,0 +1,36 @@
+
+
+.chat-elements-container {
+    display: flex;
+    width: 100%;
+    border: 1px solid;
+    justify-content: space-evenly;
+}
+
+.chat-box-container {
+    width: 70%;
+}
+
+h3.chat-box-title {
+    text-align: center;
+}
+
+.chat-box {
+    box-shadow: -1px 1px 8px 4px #3c9276;
+    background: #464660;
+}
+
+.message-ui-control {
+    display: flex;
+    /* width: 100vh; */
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+
+.form_button.send-btn {
+    background: #B4B897;
+    border: #F1E9E5;
+    border-radius: 5px;
+    padding: 5px;
+   }

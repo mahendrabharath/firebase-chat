@@ -1,0 +1,23 @@
+.welcome-image {
+  height: 100vh;
+  width: 100%;
+}
+
+.App {
+  height: 100vh;
+  overflow: hidden;
+  background: #333;
+}
+
+.image-container {
+  /* width: 50%;
+  height: auto; */
+}
+
+p.profile {
+  width: 100%;
+}
+
+p.profile.right {
+  text-align: end;
+}
